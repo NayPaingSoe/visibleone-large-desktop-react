@@ -9,7 +9,9 @@ const Header = () => {
           <nav className="nav">
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="#" className="active-nav-link">
+                  Home
+                </a>
               </li>
               <li>
                 <a href="#">Discovery</a>
