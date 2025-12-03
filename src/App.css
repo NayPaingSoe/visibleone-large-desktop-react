@@ -307,6 +307,28 @@
 /* Trending Section */
 .trending {
   margin-bottom: 4rem;
+  background-color: #f8f8f8;
+  padding: 3rem 0;
+}
+
+.trending .section-header {
+  margin-bottom: 2rem;
+}
+
+.trending .section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.trending .arrows {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.trending .arrows span {
+  margin-right: 0.5rem;
 }
 
 .trending .grid-3-col {
@@ -318,6 +340,9 @@
 .trending-card {
   border-radius: 4px;
   overflow: hidden;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .trending-card .card-image {
@@ -328,7 +353,8 @@
 
 .trending-card .card-image img {
   width: 100%;
-  height: auto;
+  height: 150px;
+  object-fit: cover;
   display: block;
 }
 
@@ -336,6 +362,7 @@
   font-weight: bold;
   font-size: 1rem;
   margin-bottom: 0.5rem;
+  color: #333;
 }
 
 .trending-card p {

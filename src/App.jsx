@@ -15,7 +15,7 @@ function App() {
         <Sidebar />
       </div>
       <main className="main-content">
-        <div className="container grid-main">
+        <div className="">
           <div className="left-column">
             <Trending />
             <HappeningNow />
