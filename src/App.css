@@ -754,6 +754,44 @@
   .hero-content p {
     font-size: 1.1rem;
   }
+
+  /* Trending Section Large Desktop */
+  .trending .section-title {
+    font-size: 2rem;
+  }
+
+  .trending-card .card-image img {
+    height: 200px;
+  }
+
+  .trending-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .trending-card p {
+    font-size: 1rem;
+  }
+
+  /* Happening Now Section Large Desktop */
+  .happening-now .large-article {
+    height: 500px;
+  }
+
+  .happening-now .large-article h3 {
+    font-size: 2rem;
+  }
+
+  .happening-now .large-article p {
+    font-size: 1rem;
+  }
+
+  .happening-now .small-article .image {
+    height: 200px;
+  }
+
+  .happening-now .small-article h3 {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -771,5 +809,43 @@
 
   .hero-content p {
     font-size: 1.25rem;
+  }
+
+  /* Trending Section Extra Large Desktop */
+  .trending .section-title {
+    font-size: 2.5rem;
+  }
+
+  .trending-card .card-image img {
+    height: 250px;
+  }
+
+  .trending-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .trending-card p {
+    font-size: 1.1rem;
+  }
+
+  /* Happening Now Section Extra Large Desktop */
+  .happening-now .large-article {
+    height: 600px;
+  }
+
+  .happening-now .large-article h3 {
+    font-size: 2.5rem;
+  }
+
+  .happening-now .large-article p {
+    font-size: 1.2rem;
+  }
+
+  .happening-now .small-article .image {
+    height: 250px;
+  }
+
+  .happening-now .small-article h3 {
+    font-size: 1.4rem;
   }
 }
