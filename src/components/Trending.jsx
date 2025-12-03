@@ -1,25 +1,28 @@
-import React from 'react';
+import React from "react";
 
 const Trending = () => {
   const trendingItems = [
     {
-      image: 'https://placehold.co/400x250/004d40/white?text=Nature',
-      title: 'Dolore magna aliqua',
-      excerpt: 'Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.',
-      time: '2m ago'
+      image: "/trending1.webp",
+      title: "Dolore magna aliqua",
+      excerpt:
+        "Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.",
+      time: "2m ago",
     },
     {
-      image: 'https://placehold.co/400x250/ff6f00/white?text=Umbrellas',
-      title: 'Morbi eleifend a libero',
-      excerpt: 'Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.',
-      time: '1h ago'
+      image: "/trending2.webp",
+      title: "Morbi eleifend a libero",
+      excerpt:
+        "Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.",
+      time: "1h ago",
     },
     {
-      image: 'https://placehold.co/400x250/0d47a1/white?text=Snow',
-      title: 'Morbi eleifend a libero',
-      excerpt: 'Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.',
-      time: '3h ago'
-    }
+      image: "/trending3.webp",
+      title: "Morbi eleifend a libero",
+      excerpt:
+        "Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.",
+      time: "3h ago",
+    },
   ];
 
   return (
@@ -39,10 +42,12 @@ const Trending = () => {
               <div className="card-image">
                 <img src={item.image} alt={item.title} />
               </div>
-              <h3>{item.title}</h3>
-              <p>{item.excerpt}</p>
-              <div className="time">
-                <span>🕒</span> {item.time}
+              <div className="trending-card-content">
+                <h3>{item.title}</h3>
+                <p>{item.excerpt}</p>
+                <div className="time">
+                  <span>🕒</span> {item.time}
+                </div>
               </div>
             </div>
           ))}

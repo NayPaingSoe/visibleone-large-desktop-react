@@ -32,10 +32,6 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
   color: #888;
 }
@@ -343,10 +339,12 @@
   border-radius: 4px;
   overflow: hidden;
   background-color: white;
-  padding: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
+.trending-card-content {
+  padding: 1rem 1rem;
+}
 .trending-card .card-image {
   margin-bottom: 1rem;
   border-radius: 4px;
