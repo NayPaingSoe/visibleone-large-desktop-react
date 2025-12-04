@@ -1,4 +1,5 @@
 import React from "react";
+import MotionFadeUp from "./MotionFadeUp";
 
 const Sidebar = () => {
   const newsItems = [
@@ -56,7 +57,13 @@ const Sidebar = () => {
 
       <div className="news-list">
         {newsItems.map((item, index) => (
-          <div key={index} className="news-item">
+          <MotionFadeUp
+            key={index}
+            className="news-item"
+            duration={0.5}
+            amount={0.3}
+            delay={index * 0.1}
+          >
             <div className="category">{item.category}</div>
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>
@@ -81,7 +88,7 @@ const Sidebar = () => {
               </span>
               <span className="time-text">{item.time}</span>
             </div>
-          </div>
+          </MotionFadeUp>
         ))}
       </div>
     </aside>

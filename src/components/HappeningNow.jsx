@@ -1,4 +1,5 @@
 import React from "react";
+import MotionFadeUp from "./MotionFadeUp";
 
 const HappeningNow = () => {
   return (
@@ -38,7 +39,7 @@ const HappeningNow = () => {
 
         <div className="grid-layout-main">
           {/* Large Main Article */}
-          <div className="large-article">
+          <MotionFadeUp className="large-article" duration={0.8} amount={0.3}>
             <img src="/happen1.webp" alt="Bridge" />
             <div className="content-overlay">
               <div className="category">City</div>
@@ -70,11 +71,11 @@ const HappeningNow = () => {
                 <span className="time-text">2m ago</span>
               </div>
             </div>
-          </div>
+          </MotionFadeUp>
 
           {/* Right Column */}
           <div className="right-column-happening">
-            <div className="small-article">
+            <MotionFadeUp className="small-article" duration={0.7} amount={0.2}>
               <div className="image">
                 <img src="/happen2.webp" alt="Elephant" />
               </div>
@@ -102,9 +103,14 @@ const HappeningNow = () => {
                   3h ago by <span className="time-source">Worldnews</span>
                 </span>
               </div>
-            </div>
+            </MotionFadeUp>
 
-            <div className="small-article">
+            <MotionFadeUp
+              className="small-article"
+              duration={0.7}
+              amount={0.2}
+              delay={0.1}
+            >
               <div className="image">
                 <img src="/happen3.webp" alt="Parrot" />
               </div>
@@ -132,14 +138,14 @@ const HappeningNow = () => {
                   4h ago by <span className="time-source">Days</span>
                 </span>
               </div>
-            </div>
+            </MotionFadeUp>
           </div>
         </div>
 
         {/* Second Row */}
         <div className="grid-layout-main second-row">
           {/* Large Main Article 2 */}
-          <div className="large-article">
+          <MotionFadeUp className="large-article" duration={0.8} amount={0.3}>
             <img src="/happen4.webp" alt="Forest" />
             <div className="content-overlay">
               <div className="category">Travel</div>
@@ -171,11 +177,11 @@ const HappeningNow = () => {
                 <span className="time-text">2m ago</span>
               </div>
             </div>
-          </div>
+          </MotionFadeUp>
 
           {/* Right Column 2 */}
           <div className="right-column-happening">
-            <div className="small-article">
+            <MotionFadeUp className="small-article" duration={0.7} amount={0.2}>
               <div className="image">
                 <img src="/happen5.webp" alt="Road" />
               </div>
@@ -203,7 +209,7 @@ const HappeningNow = () => {
                   3h ago by <span className="time-source">Monica</span>
                 </span>
               </div>
-            </div>
+            </MotionFadeUp>
           </div>
         </div>
       </div>

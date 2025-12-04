@@ -1,4 +1,5 @@
 import React from "react";
+import MotionFadeUp from "./MotionFadeUp";
 
 const Trending = () => {
   const trendingItems = [
@@ -62,7 +63,13 @@ const Trending = () => {
 
         <div className="grid-3-col">
           {trendingItems.map((item, index) => (
-            <div key={index} className="card trending-card">
+            <MotionFadeUp
+              key={index}
+              className="card trending-card"
+              duration={0.6}
+              amount={0.3}
+              delay={index * 0.1}
+            >
               <div className="card-image">
                 <img src={item.image} alt={item.title} />
               </div>
@@ -91,7 +98,7 @@ const Trending = () => {
                   <span className="time-text">{item.time}</span>
                 </div>
               </div>
-            </div>
+            </MotionFadeUp>
           ))}
         </div>
       </div>
