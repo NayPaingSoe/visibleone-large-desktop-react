@@ -765,11 +765,28 @@
   }
 
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.25;
   }
 
   .hero-content p {
-    font-size: 0.85rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-content .category {
+    font-size: 0.7rem;
+  }
+
+  .hero-content .divider {
+    width: 50px;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero .btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
   }
 
   .sidebar .news-item {
