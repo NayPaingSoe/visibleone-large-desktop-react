@@ -67,7 +67,7 @@ const HappeningNow = () => {
                     ></path>
                   </svg>
                 </span>{" "}
-                2m ago
+                <span style={{ marginTop: "-10px" }}>2m ago</span>
               </div>
             </div>
           </div>
@@ -98,7 +98,9 @@ const HappeningNow = () => {
                     ></path>
                   </svg>
                 </span>{" "}
-                3h ago by <span>Worldnews</span>
+                <span style={{ marginTop: "-10px" }}>
+                  3h ago by <span>Worldnews</span>
+                </span>
               </div>
             </div>
 
@@ -126,7 +128,9 @@ const HappeningNow = () => {
                     ></path>
                   </svg>
                 </span>{" "}
-                4h ago by <span>Days</span>
+                <span style={{ marginTop: "-10px" }}>
+                  4h ago by <span>Days</span>
+                </span>
               </div>
             </div>
           </div>
@@ -164,7 +168,7 @@ const HappeningNow = () => {
                     ></path>
                   </svg>
                 </span>{" "}
-                2m ago
+                <span>2m ago</span>
               </div>
             </div>
           </div>
@@ -195,7 +199,9 @@ const HappeningNow = () => {
                     ></path>
                   </svg>
                 </span>{" "}
-                3h ago by <span>Monica</span>
+                <span style={{ marginTop: "-10px" }}>
+                  3h ago by <span>Monica</span>
+                </span>
               </div>
             </div>
           </div>

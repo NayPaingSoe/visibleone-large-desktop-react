@@ -88,7 +88,7 @@ const Trending = () => {
                       ></path>
                     </svg>
                   </span>{" "}
-                  {item.time}
+                  <span style={{ marginTop: "-5px" }}>{item.time}</span>
                 </div>
               </div>
             </div>
