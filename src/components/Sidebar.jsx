@@ -61,7 +61,7 @@ const Sidebar = () => {
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>
             <div className="time">
-              <span>
+              <span className="time-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
@@ -78,8 +78,8 @@ const Sidebar = () => {
                     opacity={0.5}
                   ></path>
                 </svg>
-              </span>{" "}
-              <span style={{ marginTop: "-5px" }}>{item.time}</span>
+              </span>
+              <span className="time-text">{item.time}</span>
             </div>
           </div>
         ))}

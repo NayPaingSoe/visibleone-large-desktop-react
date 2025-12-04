@@ -36,6 +36,28 @@
   color: #888;
 }
 
+.time {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.time-icon {
+  display: flex;
+  line-height: 0;
+  flex-shrink: 0;
+}
+
+.time-text {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.time-source {
+  text-decoration: underline;
+}
+
 /* Header Styles */
 .header {
   background-color: #f0f0f0;
@@ -299,10 +321,6 @@
   align-items: center;
 }
 
-.hero-and-sidebar-container .sidebar .news-item .time span {
-  margin-right: 0.3rem;
-}
-
 /* Trending Section */
 .trending {
   margin-bottom: 4rem;
@@ -382,10 +400,6 @@
   color: #888;
   display: flex;
   align-items: center;
-}
-
-.trending-card .time span {
-  margin-right: 0.5rem;
 }
 
 /* Happening Now Section */
@@ -484,7 +498,7 @@
   color: #888;
 }
 
-.happening-now .small-article .time span:last-child {
+.happening-now .small-article .time .time-source {
   text-decoration: underline;
 }
 

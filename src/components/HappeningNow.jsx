@@ -49,7 +49,7 @@ const HappeningNow = () => {
                 voluptatum vis eu, inermis eloquentiam.
               </p>
               <div className="time">
-                <span>
+                <span className="time-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
@@ -66,8 +66,8 @@ const HappeningNow = () => {
                       opacity={0.5}
                     ></path>
                   </svg>
-                </span>{" "}
-                <span style={{ marginTop: "-10px" }}>2m ago</span>
+                </span>
+                <span className="time-text">2m ago</span>
               </div>
             </div>
           </div>
@@ -97,9 +97,9 @@ const HappeningNow = () => {
                       opacity={0.5}
                     ></path>
                   </svg>
-                </span>{" "}
-                <span style={{ marginTop: "-10px" }}>
-                  3h ago by <span>Worldnews</span>
+                </span>
+                <span className="time-text">
+                  3h ago by <span className="time-source">Worldnews</span>
                 </span>
               </div>
             </div>
@@ -127,9 +127,9 @@ const HappeningNow = () => {
                       opacity={0.5}
                     ></path>
                   </svg>
-                </span>{" "}
-                <span style={{ marginTop: "-10px" }}>
-                  4h ago by <span>Days</span>
+                </span>
+                <span className="time-text">
+                  4h ago by <span className="time-source">Days</span>
                 </span>
               </div>
             </div>
@@ -167,8 +167,8 @@ const HappeningNow = () => {
                       opacity={0.5}
                     ></path>
                   </svg>
-                </span>{" "}
-                <span>2m ago</span>
+                </span>
+                <span className="time-text">2m ago</span>
               </div>
             </div>
           </div>
@@ -198,9 +198,9 @@ const HappeningNow = () => {
                       opacity={0.5}
                     ></path>
                   </svg>
-                </span>{" "}
-                <span style={{ marginTop: "-10px" }}>
-                  3h ago by <span>Monica</span>
+                </span>
+                <span className="time-text">
+                  3h ago by <span className="time-source">Monica</span>
                 </span>
               </div>
             </div>
